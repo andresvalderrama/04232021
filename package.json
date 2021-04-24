@@ -1,0 +1,20 @@
+{
+  "name": "04232021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresvalderrama/04232021.git"
+  },
+  "keywords": [],
+  "author": "Andres Valderrama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresvalderrama/04232021/issues"
+  },
+  "homepage": "https://github.com/andresvalderrama/04232021#readme"
+}
