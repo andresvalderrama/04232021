@@ -9,8 +9,8 @@
   },
   "scripts": {
     "dev": "snowpack dev",
-    "test": "wtr",
-    "test-watch": "wtr --watch"
+    "test": "web-test-runner",
+    "test-watch": "web-test-runner --watch"
   },
   "repository": {
     "type": "git",
