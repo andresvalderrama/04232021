@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "snowpack dev",
     "test": "mocha",
-    "test-watch": "mocha --watch"
+    "test-watch": "mocha --watch",
+    "build": "snowpack build"
   },
   "repository": {
     "type": "git",
