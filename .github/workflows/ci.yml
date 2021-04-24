@@ -1,4 +1,4 @@
-name: 04232021
+name: ci
 
 on:
   pull_request:
