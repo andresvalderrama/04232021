@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "snowpack dev",
     "test": "web-test-runner",
-    "test-watch": "web-test-runner --watch"
+    "test-watch": "web-test-runner --watch",
+    "build": "snowpack build"
   },
   "repository": {
     "type": "git",
