@@ -1,5 +1,5 @@
-import { h } from 'preact';
+import { html as h } from 'htm/preact';
 
 export default function Welcome(props) {
-  return <div>Hello {props.name}!</div>;
+  return h`<div>Hello ${props.name}!</div>`;
 }

@@ -1,6 +1,7 @@
 import 'preact/devtools';
 
-import { h, render } from 'preact';
+import { html } from 'html/preact';
+import { render } from 'preact';
 import Welcome from './components/welcome';
 
-render(<Welcome name="World" />, document.getElementById('root'));
+render(html`<${Welcome} name="World" />`, document.getElementById('root'));
