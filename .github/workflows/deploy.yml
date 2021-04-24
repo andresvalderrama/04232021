@@ -4,11 +4,12 @@ on:
   push:
     branches: master
 
+jobs:
   build-and-deplay:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkoukt@v2.3.1
+        uses: actions/checkout@v2
         with:
           persist-credentials: false
       - name: Install and Build 🔧
