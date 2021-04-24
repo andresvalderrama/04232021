@@ -1,14 +1,14 @@
-import { h } from 'preact';
+import { html as h } from 'htm/preact';
 import { render } from '@testing-library/preact';
 import { expect } from 'chai';
 
-import Welcome from './index';
+import Welcome from './index.jsx';
 
 describe('<Welcome />', () => {
   it('renders learn preact link', () => {
-    const { getByText } = render(<Welcome name="World" />);
+    const { getByText } = render(h`<${Welcome} name="World" />`);
     const linkElement = getByText(/Hello World!/i);
 
-    expect(true).to.be.true;
+    expect(linkElement).to.not.be.null;
   });
 });
