@@ -9,8 +9,9 @@
   },
   "scripts": {
     "dev": "snowpack dev",
-    "test": "web-test-runner",
-    "test-watch": "web-test-runner --watch"
+    "test": "mocha",
+    "test-watch": "mocha --watch",
+    "build": "snowpack build"
   },
   "repository": {
     "type": "git",
@@ -26,15 +27,19 @@
   "devDependencies": {
     "@prefresh/snowpack": "^3.1.2",
     "@snowpack/plugin-dotenv": "^2.1.0",
-    "@snowpack/web-test-runner-plugin": "^0.2.2",
     "@testing-library/preact": "^2.0.1",
-    "@web/test-runner-playwright": "^0.8.5",
     "chai": "^4.3.4",
     "eslint": "^7.25.0",
+    "esm": "^3.2.25",
+    "jsdom": "^16.5.3",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0",
     "prettier": "^2.2.1",
     "snowpack": "^3.3.5"
   },
   "dependencies": {
+    "htm": "^3.0.4",
     "preact": "^10.5.13"
   }
 }
