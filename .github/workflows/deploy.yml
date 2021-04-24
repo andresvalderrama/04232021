@@ -4,6 +4,7 @@ on:
   push:
     branches: master
 
+jobs:
   build-and-deplay:
     runs-on: ubuntu-latest
     steps:
