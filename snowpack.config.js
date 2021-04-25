@@ -13,6 +13,7 @@ module.exports = {
     open: 'none'
   },
   buildOptions: {
-    baseUrl: '/04232021'
+    baseUrl: '/04232021',
+    metaUrlPath: ''
   }
 };
