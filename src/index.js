@@ -1,4 +1,3 @@
-import "../pkg/preact/devtools.js";
 import { html } from "../pkg/htm/preact.js";
 import { render } from "../pkg/preact.js";
 import Welcome from "./components/welcome/index.js";
