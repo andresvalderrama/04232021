@@ -14,6 +14,6 @@ module.exports = {
   },
   buildOptions: {
     baseUrl: '/04232021',
-    metaUrlPath: ''
+    metaUrlPath: 'snowpack'
   }
 };
