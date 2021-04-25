@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://andresvalderrama.github.io/04232021",
+  "keywords": [],
+  "author": "Andres Valderrama",
+  "license": "ISC",
   "engines": {
     "node": "14.15.5",
     "npm": "7.11.0"
@@ -17,13 +21,9 @@
     "type": "git",
     "url": "git+https://github.com/andresvalderrama/04232021.git"
   },
-  "keywords": [],
-  "author": "Andres Valderrama",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/andresvalderrama/04232021/issues"
   },
-  "homepage": "https://github.com/andresvalderrama/04232021#readme",
   "devDependencies": {
     "@prefresh/snowpack": "^3.1.2",
     "@snowpack/plugin-dotenv": "^2.1.0",
