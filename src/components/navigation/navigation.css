@@ -1,0 +1,9 @@
+.navigation {
+  @apply fixed;
+  @apply bottom-0;
+  @apply w-full;
+  @apply border-t;
+  @apply border-gray-400;
+  @apply py-4;
+  @apply bg-white;
+}

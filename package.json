@@ -27,6 +27,7 @@
   "devDependencies": {
     "@prefresh/snowpack": "^3.1.2",
     "@snowpack/plugin-dotenv": "^2.1.0",
+    "@snowpack/plugin-postcss": "^1.2.2",
     "@testing-library/preact": "^2.0.1",
     "chai": "^4.3.4",
     "eslint": "^7.25.0",
@@ -35,11 +36,16 @@
     "jsdom-global": "^3.0.2",
     "mocha": "^8.3.2",
     "nyc": "^15.1.0",
+    "postcss": "^8.2.12",
     "prettier": "^2.2.1",
-    "snowpack": "^3.3.5"
+    "snowpack": "^3.3.5",
+    "tailwindcss": "^2.1.2"
   },
   "dependencies": {
+    "dayjs": "^1.10.4",
     "htm": "^3.0.4",
-    "preact": "^10.5.13"
+    "preact": "^10.5.13",
+    "preact-router": "^3.2.1",
+    "zustand": "^3.4.1"
   }
 }

@@ -1,0 +1,4 @@
+.home-header {
+  @apply text-center;
+  @apply py-3;
+}

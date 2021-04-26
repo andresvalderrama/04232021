@@ -1,0 +1,9 @@
+.routine {
+  @apply bg-gray-100;
+  @apply rounded;
+  @apply p-2;
+}
+
+.routine:nth-of-type(n + 2) {
+  @apply mt-3;
+}
